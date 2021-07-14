@@ -1,0 +1,42 @@
+.list{
+    color: white;
+    width: 300px;
+    background-color: #bf07ac;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+
+}
+
+.list p{
+    padding: 10px;
+    position: relative;
+}
+
+.list p span button{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 15px;
+    background-color: rgb(49, 52, 82);
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+}
+.list p span button:focus{
+    outline: none;
+} 
+
+.list p input{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 18px;
+}
+
+.list p input:focus{
+    outline: none;
+}
